@@ -1,0 +1,7 @@
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\bin\Debug\MultiTimer.exe.config
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\bin\Debug\MultiTimer.exe
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\bin\Debug\MultiTimer.pdb
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\obj\Debug\MultiTimer.csprojAssemblyReference.cache
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\obj\Debug\MultiTimer.csproj.CoreCompileInputs.cache
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\obj\Debug\MultiTimer.exe
+C:\Users\autop\source\repos\MultiTimer\MultiTimer\obj\Debug\MultiTimer.pdb

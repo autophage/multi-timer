@@ -28,7 +28,7 @@ namespace MultiTimer
             Console.Clear();
             foreach (var entry in Mappings)
             {
-                Console.WriteLine(entry.Key + " - " + entry.Value.Name + ":\t\t" + entry.Value.Timer.Elapsed);
+                Console.WriteLine(entry.Key + " - " + (entry.Value.Name + ":").PadRight(20) + "\t" + entry.Value.Timer.Elapsed);
             }
 
             Console.WriteLine("   Will exit now - copy what you need!");
@@ -44,7 +44,7 @@ namespace MultiTimer
 
                 foreach (var entry in Mappings)
                 {
-                    Console.WriteLine(entry.Key + " - " + entry.Value.Name + ":\t\t" + entry.Value.Timer.Elapsed);
+                    Console.WriteLine(entry.Key + " - " + (entry.Value.Name + ":").PadRight(20) + "\t" + entry.Value.Timer.Elapsed);
                 }
 
                 Console.WriteLine("... or press `x` to exit and write out results.");

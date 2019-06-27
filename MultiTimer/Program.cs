@@ -24,13 +24,24 @@ namespace MultiTimer
 
         private static void WriteOutputFile()
         {
-            throw new NotImplementedException();
+            // Man I'm not even bothering to write this out to a file...
+            Console.Clear();
+            foreach (var entry in Mappings)
+            {
+                Console.WriteLine(entry.Key + " - " + entry.Value.Name + ":\t\t" + entry.Value.Timer.Elapsed);
+            }
+
+            Console.WriteLine("   Will exit now - copy what you need!");
+
+            Console.ReadLine();
         }
 
         private static void TimerLoop()
         {
             while (LastCharEntered != 'x')
             {
+                Console.WriteLine();
+
                 foreach (var entry in Mappings)
                 {
                     Console.WriteLine(entry.Key + " - " + entry.Value.Name + ":\t\t" + entry.Value.Timer.Elapsed);

@@ -68,16 +68,16 @@ namespace MultiTimer
         private static void ParseFileToPopulateMappings()
         {
             // Cheating - not actually parsing a file at all! I'm lazy today.
-            Mappings.Add('1', new TimedStream("Elizabeth Warren"));
-            Mappings.Add('2', new TimedStream("Beto O'Rourke"));
-            Mappings.Add('3', new TimedStream("Cory Booker"));
-            Mappings.Add('4', new TimedStream("Julian Castro"));
-            Mappings.Add('5', new TimedStream("Tulsi Gabbard"));
-            Mappings.Add('6', new TimedStream("Jay Inslee"));
-            Mappings.Add('7', new TimedStream("Amy Klobuchar"));
-            Mappings.Add('8', new TimedStream("Bill de Blasio"));
-            Mappings.Add('9', new TimedStream("John Delaney"));
-            Mappings.Add('0', new TimedStream("Tim Ryan"));
+            Mappings.Add('1', new TimedStream("Marianne Williamson"));
+            Mappings.Add('2', new TimedStream("John Hickenlooper"));
+            Mappings.Add('3', new TimedStream("Andrew Yang"));
+            Mappings.Add('4', new TimedStream("Pete Buttigieg"));
+            Mappings.Add('5', new TimedStream("Joe Biden"));
+            Mappings.Add('6', new TimedStream("Bernie Sanders"));
+            Mappings.Add('7', new TimedStream("Kamala Harris"));
+            Mappings.Add('8', new TimedStream("Kirsten Gillibrand"));
+            Mappings.Add('9', new TimedStream("Michael Bennet"));
+            Mappings.Add('0', new TimedStream("Eric Swalwell"));
             Mappings.Add('m', new TimedStream("Moderator"));
         }
     }
